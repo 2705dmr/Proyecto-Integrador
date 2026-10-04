@@ -1,2 +1,3 @@
 # Proyecto-Integrador
-Página completa en HTML
+Banco de experiencias sobre errores de programación
+Página web completa en HTML
