@@ -1,2 +1,2 @@
 # Proyecto-Integrador
-Semestral
+Página completa en HTML
