@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio - ExceptionLog</title>
+</head>
+<body>
+
+<header>
+  <h2>ExceptionLog</h2>
+  <nav>
+    <a href="index.html">Inicio</a> |
+    <a href="categorias.html">Categorías</a> |
+    <a href="errores.html">Errores</a> |
+    <a href="foro.html">Foro</a> |
+    <a href="perfil.html">Perfil</a> |
+    <a href="iniciar-sesion.html">Iniciar sesión</a> |
+    <a href="registro.html">Registrarse</a>
+  </nav>
+  <hr>
+</header>
+
+<main>
+
+  <section>
+    <p>// bienvenido</p>
+    <h1>ExceptionLog</h1>
+    <p>El banco de experiencias sobre errores de programación.</p>
+    <p><a href="iniciar-sesion.html">Iniciar sesión</a> | <a href="registro.html">Registrarse</a></p>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Estadísticas</h2>
+    <table border="1" cellpadding="10">
+      <tr>
+        <td><b>247</b><br>Errores documentados</td>
+        <td><b>1,438</b><br>Soluciones aportadas</td>
+        <td><b>12</b><br>Lenguajes cubiertos</td>
+        <td><b>4.2k</b><br>Devs activos</td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Categorías frecuentes</h2>
+    <table border="1" cellpadding="10">
+      <tr>
+        <td>⚡ <b>TypeError</b><br>39 casos</td>
+        <td>∅ <b>NullPointer</b><br>58 casos</td>
+        <td>∞ <b>StackOverflow</b><br>27 casos</td>
+        <td>⛔ <b>NetworkError</b><br>24 casos</td>
+        <td>💥 <b>RuntimeError</b><br>44 casos</td>
+        <td>🔒 <b>AuthError</b><br>14 casos</td>
+      </tr>
+    </table>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Errores recientes</h2>
+    <p><a href="errores.html">Ver todos →</a></p>
+
+    <article>
+      <p><b>CRÍTICO</b> | JAVASCRIPT | REACT</p>
+      <h3>Cannot read properties of undefined (reading 'map')</h3>
+      <p>Ocurre cuando se itera sobre una prop no inicializada. El componente renderiza antes de que los datos asincrónicos lleguen del API.</p>
+      <pre>TypeError: Cannot read properties of undefined (reading 'map')</pre>
+      <p>▲ 89 | 💬 12 | @carlos_m · Hace 2 horas</p>
+    </article>
+    <hr>
+
+    <article>
+      <p><b>CRÍTICO</b> | JAVA | SPRING BOOT</p>
+      <h3>java.lang.NullPointerException al acceder a objeto remoto</h3>
+      <p>Se produce al invocar métodos de un servicio inyectado que no fue correctamente inicializado por el contenedor Spring.</p>
+      <pre>java.lang.NullPointerException</pre>
+      <p>▲ 74 | 💬 8 | @ana_dev · Hace 5 horas</p>
+    </article>
+    <hr>
+
+    <article>
+      <p><b>ERROR</b> | PYTHON | DJANGO</p>
+      <h3>RecursionError: maximum recursion depth exceeded</h3>
+      <p>La función recursiva carece de caso base correcto o los datos generan ciclos. Python limita la pila a 1000 llamadas por defecto.</p>
+      <pre>RecursionError: maximum recursion depth exceeded
+  File 'tree.py', line 23, in traverse</pre>
+      <p>▲ 61 | 💬 6 | @luisa_py · Ayer</p>
+    </article>
+    <hr>
+
+    <article>
+      <p><b>ERROR</b> | NODE.JS | EXPRESS</p>
+      <h3>ECONNREFUSED 127.0.0.1:5432 - PostgreSQL no disponible</h3>
+      <p>El proceso intenta conectarse a Postgres antes de que el servicio esté listo. Frecuente en entornos Docker con contenedores dependientes.</p>
+      <pre>Error: connect ECONNREFUSED 127.0.0.1:5432
+  at TCPConnectWrap.afterConnect</pre>
+      <p>▲ 55 | 💬 9 | @roberto_be · Hace 2 días</p>
+    </article>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Discusiones activas</h2>
+    <p><a href="foro.html">Ver foro →</a></p>
+    <ul>
+      <li>¿Cómo debuggear un memory leak en Node.js sin profiler?<br>NODE.JS | 💬 17 | ✓ RESUELTO</li>
+      <li>JWT expira pero el refresh token no funciona correctamente<br>TYPESCRIPT | 💬 9</li>
+      <li>Segmentation fault en C++ con punteros y vector dinámico<br>C++ | 💬 5</li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <aside>
+    <h2>Acceso rápido</h2>
+    <table border="1" cellpadding="8">
+      <tr><td>⚡ TypeError<br>39</td><td>∅ NullPointer<br>58</td></tr>
+      <tr><td>∞ StackOverflow<br>27</td><td>⛔ NetworkError<br>24</td></tr>
+      <tr><td>💥 RuntimeError<br>44</td><td>🔒 AuthError<br>14</td></tr>
+    </table>
+
+    <h2>Tu actividad</h2>
+    <ul>
+      <li>Errores reportados: <b>7</b></li>
+      <li>Hilos participados: <b>12</b></li>
+      <li>Soluciones aportadas: <b>24</b></li>
+    </ul>
+
+    <h2>// TIP DEL DÍA</h2>
+    <p>Usa <code>console.trace()</code> para ver la pila de llamadas exacta en el momento del error.</p>
+
+    <p><a href="errores.html"><b>+ Reportar error</b></a></p>
+  </aside>
+
+</main>
+
+<footer>
+  <hr>
+  <p>ExceptionLog - El banco de experiencias sobre errores de programación.</p>
+</footer>
+
+</body>
+</html>
