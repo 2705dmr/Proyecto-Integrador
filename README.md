@@ -1,2 +1,2 @@
-# Proyecto-Integrador---Semestral
+# Proyecto-Integrador
 Semestral
